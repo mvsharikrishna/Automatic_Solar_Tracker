@@ -1,9 +1,9 @@
-#include<Servo.h>
-Servo myservo;
-int initialpos=0;
-int LDR1=A0;
-int LDR2=A1;
-int servopin=10;
+#include<Servo.h> //servomotor header file
+Servo myservo;//naming servo library as myservo
+int initialpos=0;//servo motor initial angle = 0
+int LDR1=A0; //east side LDR is connected to Analog pin 0
+int LDR2=A1; //west side LDR is connected to Analog pin 0
+int servopin=10; //servo motor signal pin is connected to digital pin 10
 void setup() {
 
   //set the pin mode for the motor to be an output
